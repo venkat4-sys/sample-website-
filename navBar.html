@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+    body{
+        margin: 0;
+    }
+    .header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        background-color:black;
+       
+    }
+    .card-title{
+        
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card-navitems{
+       
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        color: white;
+        margin: 0px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        margin-right: 50px;   
+    }
+    .card-body{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        margin-top: 160px;
+       }
+    .img-div{
+       width: 30%;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+       
+    }
+    .body-content{
+        width:70% ;
+        text-align: center;
+    }
+    img{
+        border-radius: 50%;
+        width: 265px;
+        height: 250px;
+        margin-left: 45px;
+    }
+
+    /* cards display*/
+    .title-card{
+        height: 50%;
+        margin-top: 80px; 
+        display: flex;
+    }
+    .img-div-1{
+      
+      width: 25%;
+      display: flex;
+    }
+    .img-div-2{
+        
+        width: 25%;   
+    }
+    .img-div-3{
+       
+        width: 25%;  
+    }
+    .img-div-4{
+        
+        width: 25%; 
+}
+/*footer*/
+   .footer{
+        width: 100%;
+        margin-top: 30px;
+        height: 50%;
+        background-color: black;
+        color: rgb(239 178 188 / 61%);
+        text-align: center;
+        padding: 30px;
+        font-size: 20px;
+
+    }
+    
+   
+   
+
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+      <div class="card-title">
+         <h2>Portfolio</h2>
+      </div>
+      <div class="card-navitems">
+           <a href="#">Home</a>
+           <a href="#">about</a>
+           <a href="#">Services</a>
+           <a href="#">Contact us</a>
+      </div>
+    </div>
+    <div class="card-body">
+        <div class="img-div">
+           <img src="data:image/jpeg;base64,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" alt="photo">
+
+        </div>
+        <div class="body-content">
+                 <p>Hi Everyone</p>
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, quia. 
+                    At repellendus consequuntur consectetur vitae minus. 
+                    Sunt corporis cupiditate recusandae natus hic facere repellendus molestiae 
+                    consequatur? Aperiam, unde consequatur? Et ipsa dignissimos facere autem in laudantium excepturi amet consequatur blanditiis nisi quis repellendus aperiam,
+                    dolore unde corrupti expedita. Architecto, voluptatem.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Quos blanditiis error consequuntur dolorum nostrum earum ullam et numquam.
+                        Repellat iusto facilis aperiam harum velit optio quas. Inventore voluptatum eveniet, 
+                        fugiat at aliquam atque dolore exercitationem repellendus, molestiae laudantium explicabo? Consectetur perferendis nihil tenetur
+                        quae quidem minima accusantium adipisci, necessitatibus maxime
+                    </p>
+        </div>
+          
+    </div>
+    <div class="title-card">
+        <div class="img-div-1">
+            <img  class="image-prop" src="https://thumbs.dreamstime.com/b/college-students-classroom-group-31576909.jpg?w=360">
+        </div>
+        <div class="img-div-2">
+            <img   class="image-prop" src="https://media.istockphoto.com/id/1149054436/photo/business-man-review-his-resume-application-on-desk-laptop-computer-job-seeker.webp?s=1024x1024&w=is&k=20&c=uvoMrDrfNhxWn7K9TOAK1xqQSRBOnEDH9lzh3VIDLj8=" alt="">
+        </div>
+        <div class="img-div-3">
+            <img  class="image-prop" src="https://media.istockphoto.com/id/1187179171/photo/futuristic-office.webp?s=1024x1024&w=is&k=20&c=iLSIZ87E2Ofy2GoGY_Kyii0ql_MR_EmTpyYDZJkkOHM=" alt="">
+        </div>
+        <div class="img-div-4">
+            <img  class="image-prop" src="https://media.istockphoto.com/id/1254652136/vector/vector-map-of-the-planet-world-map-global-social-network-future-blue-futuristic-background.jpg?s=612x612&w=0&k=20&c=UCKR4V_-RsT3j-FBhLcfRtqlmueMJijKVwgy8-k6NH4=" alt="">
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Perferendis enim nisi quidem optio eligendi necessitatibus molestiae, 
+             quae iusto sint ducimus possimus cupiditate quis nam, maiores doloremque 
+             saepe tenetur officiis explicabo asperiores odit.
+             Deserunt, adipisci nisi odit vero neque magni molestias?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis enim nisi quidem optio eligendi necessitatibus molestiae, 
+            quae iusto sint ducimus possimus cupiditate quis nam, maiores doloremque 
+            saepe tenetur officiis explicabo asperiores odit.
+            Deserunt, adipisci nisi odit vero neque magni molestias?
+       </p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Perferendis enim nisi quidem optio eligendi necessitatibus molestiae, 
+        quae iusto sint ducimus possimus cupiditate quis nam, maiores doloremque 
+        saepe tenetur officiis explicabo asperiores odit.
+        Deserunt, adipisci nisi odit vero neque magni molestias?
+       </p>
+       <p>copy right &#169; All rights reserved</p>
+       
+    </div>
+</body>
+</html>
